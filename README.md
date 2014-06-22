@@ -10,5 +10,11 @@ OriginalData directory contains the data that was extracted from the [zip file](
 
 run_analysis.R file contains an R script that downloads the zip file into the _Samsung_ folder in the current working directory and produces a file called _TidyDataSet.txt_.
 
+To run the script in run_analysis.R 
+* Open R Studio on a Windows 8.1 system
+* If samsung folder exists in your working directory delete it or empty it
+* source(run_analysis.R)
+* library(reshape2)
+* CleanData()
 
 TidyDatSet.txt contains the cleaned data obtained as a result of running run_analysis.R.
